@@ -1,0 +1,29 @@
+package Hotel_FoodOrdering;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceRegistration;
+
+import Hotel_FoodOrdering.FoodOdering_PublishImpl;
+import Hotel_FoodOrdering.FoodOdering_ServiceProduce;
+
+
+public class FoodOrdering_ServiceActivator implements BundleActivator {
+	
+	ServiceRegistration foodProduceServiceRegistration;
+
+
+	public void start(BundleContext context) throws Exception {
+		System.out.println("Producer Start");
+//		FoodOdering_ServiceProduce ProducerService = new FoodOdering_PublishImpl();
+//		foodProduceServiceRegistration = context.registerService(FoodOdering_ServiceProduce.class.getName(), ProducerService, null);
+	}
+
+	public void stop(BundleContext context) throws Exception {
+		System.out.println("Publisher Stop");
+		foodProduceServiceRegistration.unregister();
+	}
+	
+}
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Hotel_FoodOrderingconsumer.Activator.java&apos; to &apos;ConsumerActivator.java&apos;&#x0D;&#x0A;- Original project: &apos;Hotel_FoodOrderingConsumer_it19191720&apos;&#x0D;&#x0A;- Original element: &apos;Hotel_FoodOrderingconsumer.Activator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Hotel_FoodOrderingconsumer.ConsumerActivator.java&apos;" description="Rename compilation unit &apos;Activator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Hotel_FoodOrderingconsumer{Activator.java" name="ConsumerActivator.java" references="false" stamp="1647488601798" version="1.0"/>
+</session>
